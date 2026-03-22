@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tumlinson Networks — Electrical & Low Voltage Contractor",
+  title: "Tumlinson Electric — Electrical & Low Voltage Contractor | Central Texas",
   description: "Full-service electrical and low-voltage contractor serving Central Texas. Division 26 Electrical and Division 27 Low Voltage / Structured Cabling.",
 };
 
