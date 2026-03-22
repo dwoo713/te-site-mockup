@@ -14,6 +14,7 @@ export default function EmployeePortalPage() {
       data={data as any}
       accentColor="#16635C"
       showPTO={true}
+      storageKey="employee-portal"
     />
   );
 }

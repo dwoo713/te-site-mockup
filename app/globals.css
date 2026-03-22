@@ -55,6 +55,21 @@ body { font-family: var(--font-brand); }
   transform: translateY(-2px);
 }
 
+/* Tiptap editor */
+.tiptap { outline: none; }
+.tiptap p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #6b7280;
+  pointer-events: none;
+  height: 0;
+}
+.tiptap ul[data-type="taskList"] { list-style: none; padding: 0; }
+.tiptap ul[data-type="taskList"] li { display: flex; align-items: flex-start; gap: 8px; }
+.tiptap ul[data-type="taskList"] li label { display: flex; align-items: flex-start; gap: 8px; }
+.tiptap img { max-width: 100%; height: auto; border-radius: 8px; }
+.tiptap table { border-collapse: collapse; width: 100%; }
+
 /* Glow effects */
 .glow-teal { text-shadow: 0 0 40px rgba(22,99,92,0.5); }
 .glow-dot { box-shadow: 0 0 8px currentColor, 0 0 16px currentColor; }

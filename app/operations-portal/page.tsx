@@ -13,6 +13,7 @@ export default function OperationsPortalPage() {
       subtitle="PM Manual · Field Ops · Software · Purchasing · Network Ops"
       data={data as any}
       accentColor="#3b82f6"
+      storageKey="operations-portal"
     />
   );
 }
