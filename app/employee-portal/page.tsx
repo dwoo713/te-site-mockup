@@ -13,6 +13,7 @@ export default function EmployeePortalPage() {
       subtitle="HR · Onboarding · Benefits · Company Info"
       data={data as any}
       accentColor="#16635C"
+      showPTO={true}
     />
   );
 }
