@@ -175,14 +175,10 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-2">
             <a href="/employee-portal" className="glass px-3 py-2 text-white text-xs font-semibold rounded-lg hover:scale-105 transition-transform">
-              Employee
+              Employee Portal
             </a>
-            <a href="/operations-portal" className="glass px-3 py-2 text-white text-xs font-semibold rounded-lg hover:scale-105 transition-transform">
-              Operations
-            </a>
-            <a href="https://tumlinsonnetworks.vercel.app/login" target="_blank" rel="noopener"
-              className="glass-teal px-3 py-2 text-white text-xs font-semibold rounded-lg hover:scale-105 transition-transform">
-              PM Hub
+            <a href="/operations-portal" className="glass-teal px-3 py-2 text-white text-xs font-semibold rounded-lg hover:scale-105 transition-transform">
+              Operations Portal
             </a>
           </div>
         </div>
