@@ -173,10 +173,18 @@ export default function Home() {
               <a key={s} href={`#${s}`} className="hover:text-te-teal transition-colors capitalize">{s}</a>
             ))}
           </div>
-          <a href="https://tumlinsonnetworks.vercel.app/login" target="_blank" rel="noopener"
-            className="glass-teal px-4 py-2 text-white text-sm font-semibold rounded-lg hover:scale-105 transition-transform">
-            Portal
-          </a>
+          <div className="flex items-center gap-2">
+            <a href="/employee-portal" className="glass px-3 py-2 text-white text-xs font-semibold rounded-lg hover:scale-105 transition-transform">
+              Employee
+            </a>
+            <a href="/operations-portal" className="glass px-3 py-2 text-white text-xs font-semibold rounded-lg hover:scale-105 transition-transform">
+              Operations
+            </a>
+            <a href="https://tumlinsonnetworks.vercel.app/login" target="_blank" rel="noopener"
+              className="glass-teal px-3 py-2 text-white text-xs font-semibold rounded-lg hover:scale-105 transition-transform">
+              PM Hub
+            </a>
+          </div>
         </div>
       </nav>
 
